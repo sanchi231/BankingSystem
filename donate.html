@@ -4,12 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Donation Page</title>
+    <style>
+        body {
+            background-color: wheat;
+        }
+    </style>
 </head>
 <body>
-    <form>
+    <!-- navbar -->
+    <nav>
+        <div class="container">
+            <a href="index.html">
+                <img class="logo" src="images/logo.png" alt="logo">
+            </a>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#aboutus">About Us</a></li></li>
+                <li><a href="index.html#contactus">Contact Us</a></li></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- main section -->
+    <main class="main"> 
+        <h1>Thank you for donating!</h1>
+    </main>
+
+    <!-- donation button -->
+    <form id="pay-button">
         <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HMUQV9menbNM90" async> 
         </script> 
     </form>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <p>©️ 2021 Donate. All Rights Reserved | Design made with ❤️</p>
+        </div>
+        
+    </footer>
 </body>
 </html>

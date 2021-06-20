@@ -11,16 +11,19 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- navbar -->
     <nav>
         <div class="container">
-            <img class="logo" src="images/logo.png" alt="logo">
+            <a href="index.html">
+                <img class="logo" src="images/logo.png" alt="logo">
+            </a>
             <ul class="navbar">
-                <li><a href="#index">Home</a></li>
-                <li><a href="https://www.google.com">About Us</a></li></li>
-                <li><a href="https://www.google.com">Contact Us</a></li></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutus">About Us</a></li></li>
+                <li><a href="#contactus">Contact Us</a></li></li>
             </ul>
         </div>
     </nav>
@@ -30,10 +33,50 @@
         <img class="wallpaper" src="images/Educate.jpeg" alt="educate wallpaper">
         <button class="btn" onclick="location.href='donate.html'">Donate</button>
         <div class="text-container">
-            <h3>Your donation will brigthen their future!</h3>
-            
+            <h3>Your donation will brigthen their future!</h3> 
         </div>
+    </div>
 
+    <!-- about us section -->
+    <div id="aboutus">
+        <h1>About Us</h1>
+        <div class="row">
+            <p>India is a country where we find extreme contrasts of wealth and poverty co-exist in everyday life. We understand peoples needs are very diverse and they span a wide spectrum because of ages, social contexts and family structures. </p>
+            
+            <p>We attempt to bridge this gap between the rich and the poor by fulfilling their day to day basic needs through a systematic and disciplined structure of organisation.</p>
+
+            <p>We request you to join us in making this social transformation, by what ever way possible to you. You can help us in many ways such as donating and facilitating the donations for people living in and around your society.</p> 
+        </div>
+    </div>
+
+    <!-- contact us section -->
+    <div id="contactus">
+        <h1 class="contactus">Contact Us</h1>
+        <div>
+            <h2 class="contactus caption">We would love to hear from you!</h2>
+            <p class="contactus caption">Get In Touch</p>
+            <form action="#" id="form">
+                <div class="form-container">
+                    <label class="label"> First Name:</label><br>
+                    <input type="text" name="firstname" class="text" required><br><br>
+                    <label class="label"> Last Name: </label><br>
+                    <input type="text" name="lastname" class="text" required><br><br>
+                    <label class="label"> Email: </label><br>
+                    <input type="email" name="email" class="text" required><br><br>
+                    <label class="label"> Contact: </label><br>
+                    <input type="number" name="contact" class="text" required><br><br>
+                    <label class="label"> Message: </label><br>   
+                    <textarea name="message" cols="30" rows="4" class="text"></textarea><br><br>
+                    <br>
+                    <input type="submit" name="submit" class="btn form-btn">
+                    
+                    
+                    
+                    
+                </div>
+            </form>
+
+        </div>
     </div>
 
     <!-- footer -->

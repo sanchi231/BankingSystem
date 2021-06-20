@@ -117,3 +117,115 @@ a:hover {
     letter-spacing: 0.2em;;
 
 }
+
+.main {
+    text-align: center;
+    margin: 4em;
+}
+
+.main h1{
+    padding-top: 5px;
+    letter-spacing: 0.11em;
+    font-family: sans-serif;
+}
+
+
+
+/* payment button */
+#pay-button {
+    text-align: center; /* aligns horizontally */
+    display:  inline-flex;
+    border: darkblue 4px solid;
+    border-radius: 5px;
+    margin: 26vh 43vw;
+}
+
+/* about us  section */
+#aboutus {
+    padding: 2em;
+    /* border: 3px solid brown;    */
+    background-color: #2b2e2c; 
+    color: wheat;
+    height: 50vh;  
+}
+
+#aboutus h1{
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 0.06em;
+    color: whitesmoke;
+}
+
+.row {
+    display: flex;
+    /* border: 3px solid green; */
+}
+.row p{
+    flex-direction: column;
+    width: 33.33%;
+    padding: 1em 12px;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+/* contact us section */
+.caption {
+    font-family: 'PT Serif', serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.contactus {
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin: 0.5em;
+    padding-bottom: 10px;
+    font-weight: 900;
+    /* border: mediumslateblue 4px groove; */
+}
+
+#form {
+    position: relative;
+}
+
+.form-container {
+    margin: 1em auto;
+    background-color: wheat;
+    border: brown 4px groove; 
+    border-radius: 15px;
+    padding: 2em;
+    width: 30%;
+    font-size: 18px;
+    
+}
+
+.label {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 18px;
+    width: 80%;
+    padding: 0.08em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-btn {
+    position: absolute;
+    top: 82%;
+    right: 5%;
+    text-align: center;
+    margin: 0.8em 0;
+    right: 70%;
+    height: 50px;
+    width: 150px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    box-shadow:3px 3px 2px rgb(255, 255, 255); 
+
+}
+
