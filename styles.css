@@ -29,6 +29,7 @@ nav {
     top: 50px;
     left: 70%;
 }
+
 ul {
     /* border: white 2px solid; */
     width: 400px;
@@ -118,12 +119,12 @@ a:hover {
 
 }
 
-.main {
+.main1 {
     text-align: center;
     margin: 4em;
 }
 
-.main h1{
+.main1 h1{
     padding-top: 5px;
     letter-spacing: 0.11em;
     font-family: sans-serif;
@@ -142,6 +143,7 @@ a:hover {
 
 /* about us  section */
 #aboutus {
+    overflow-y: hidden;
     padding: 2em;
     /* border: 3px solid brown;    */
     background-color: #2b2e2c; 
@@ -229,3 +231,154 @@ a:hover {
 
 }
 
+/* Responsive  */
+/* @media screen and (min-width: 1230px) {
+    .container {
+        width: 100%;
+    }
+} */
+
+@media screen and (width: 375px) {
+    .wallpaper {
+        width: 369px;
+    }
+
+    .btn {
+        display: block;
+        position: absolute;
+        bottom: 200px;
+        left: 30%;
+        text-align: center;
+        padding: 0.5em ;
+        color: white;
+        background-color: #111;
+        border-radius: 10px;
+        border: 2px solid black;
+        width: 135px;
+        height: 55px;
+        font-size: 20px;
+        letter-spacing: 0.02sem;
+        box-shadow: 3px 3px 2px #fff;
+        letter-spacing: 0.2em;
+    
+    }
+    
+    .btn:hover {
+        background-color: #2b2e2c;
+        border: #2b2e2c 2px solid;
+    }
+
+    .text-container {
+        display: block;
+        position: absolute;
+        bottom: 70px;
+        left: 16%;
+        font-family: 'PT Serif', serif;
+        letter-spacing: 0.1em;
+        font: 23px;
+        background-color: wheat;
+        color: #111;
+        padding: 1em 1em;
+        height: 80px;
+        width: 260px;
+        z-index: 2;
+        margin-top: -130px;
+        border-radius: 10px;
+    }
+
+    /* about us  section */
+    #aboutus {
+        overflow-y: hidden;
+        padding: 2em;
+        /* border: 3px solid brown;    */
+        background-color: #2b2e2c; 
+        color: wheat;
+        height: 70vh;  
+    }
+
+    #aboutus h1{
+        text-align: center;
+        margin-bottom: 30px;
+        letter-spacing: 0.06em;
+        color: whitesmoke;
+    }
+
+    .row {
+        display: block;
+        /* border: 3px solid green; */
+    }
+    .row p{
+    
+        /* flex-direction: row; */
+        width: 100%;
+        height: 100%;
+        padding: 1em 12px;
+        font-size: 15px;
+        font-family: 'PT Serif', serif;
+    }
+
+    /* contact us section */
+    .caption {
+        font-family: 'PT Serif', serif;
+        /* font-family: 'Poppins', sans-serif; */
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .contactus {
+        letter-spacing: 0.01em;
+        text-align: center;
+        margin: 0.5em;
+        padding-bottom: 5px;
+        font-weight: 900;
+        /* border: mediumslateblue 4px groove; */
+    }
+
+    #form {
+        position: relative;
+    }
+
+    .form-container {
+        margin: 1em auto;
+        background-color: wheat;
+        border: brown 4px groove; 
+        border-radius: 15px;
+        padding: 2em;
+        width: 80%;
+        font-size: 18px;
+        
+    }
+
+    .label {
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0.05em;
+        font-weight: 600;
+    }
+    
+    .text {
+        font-size: 18px;
+        width: 80%;
+        padding: 0.08em;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    .form-btn {
+        position: absolute;
+        top: 82%;
+        right: 5%;
+        text-align: center;
+        margin: 0.8em 0;
+        right: 70%;
+        height: 40px;
+        width: 110px;
+        font-size: 18px;
+        padding: 5px 3px;
+        border-radius: 5px;
+        box-shadow:3px 3px 2px rgb(255, 255, 255); 
+        margin-top: 1.2em;
+    
+    }
+
+}
