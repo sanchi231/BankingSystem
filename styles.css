@@ -5,7 +5,7 @@
     overflow-x: hidden;
 }
 
-/* navbar */
+/* NAVBAR */
 nav {
     background-color: #2b2e2c;
     height: 160px;
@@ -51,7 +51,8 @@ a:hover {
     text-decoration: underline;
 }
 
-/* main section */
+/* MAIN SECTION */
+
 .main{
     text-align: center;
     position: relative;
@@ -109,7 +110,8 @@ a:hover {
     border-radius: 10px;
 }
 
-/* footer */
+/* FOOTER */
+
 .footer {
     text-align: center;
     background-color: #2b2e2c;
@@ -132,16 +134,17 @@ a:hover {
 
 
 
-/* payment button */
+/* PAYMENT BUTTON */
+
 #pay-button {
-    text-align: center; /* aligns horizontally */
+    text-align: center; 
     display:  inline-flex;
     border: darkblue 4px solid;
     border-radius: 5px;
     margin: 26vh 43vw;
 }
 
-/* about us  section */
+/* ABOUT US SECTION */
 #aboutus {
     overflow-y: hidden;
     padding: 2em;
@@ -170,7 +173,8 @@ a:hover {
     font-family: 'PT Serif', serif;
 }
 
-/* contact us section */
+/* CONTACT US SECTION */
+
 .caption {
     font-family: 'PT Serif', serif;
     /* font-family: 'Poppins', sans-serif; */
